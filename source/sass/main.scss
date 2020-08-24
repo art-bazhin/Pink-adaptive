@@ -1,0 +1,203 @@
+.heading__text-index,
+.heading__text-photo {
+  padding: 28px 40px;
+  font-weight: 300;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.software {
+  background-color: #1d2631;
+  color: #ffffff;
+  padding: 28px 20px;
+}
+
+.software__button {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 18px 36px;
+  border: 3px solid #ffffff;
+  border-radius: 50px;
+  color: #ffffff;
+}
+
+.software__list {
+  display: flex;
+  justify-content: center;
+  padding: 32px 38px 14px;
+  list-style: none;
+}
+
+.software__icon {
+  margin: 0 18px;
+
+  &--android {
+    padding-top: 7px;
+  }
+
+  &--windows8 {
+    padding-top: 10px;
+  }
+}
+
+.software__text {
+  padding: 17px 20px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.offer {
+  background-color: #f2f2f2;
+}
+
+.offer__question-answer {
+  font-weight: 300;
+  font-size: 24px;
+  padding: 23px 20px;
+  background-color: #ffffff;
+}
+
+.offer__question,
+.offer__answer {
+  margin: 0;
+  padding: 23px 0;
+}
+
+.offer__list {
+  margin: 0;
+  list-style: none;
+  padding: 68px 20px;
+}
+
+.offer__item {
+  padding: 20px 0;
+}
+
+.offer__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.offer__discription {
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.reviews {
+  margin-top: -40px;
+  background-color: #ffffff;
+}
+
+.slider__toggle {
+  padding: 0;
+  border: none;
+  margin: 10px;
+  background-color: rgba(40, 54, 69, 0.3);
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+
+  &--current {
+    background: #ffffff;
+    box-shadow: 0 0 0 3px #283645;
+  }
+}
+
+.reviews__wrapper {
+  padding: 20px;
+}
+
+.reviews__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reviews__author-name {
+  padding: 30px 20px 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.reviews__text {
+  padding: 15px 0 15px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.reviews__toggles,
+.price__toggles {
+  margin: 0;
+  padding: 45px 0;
+}
+
+.price__toggles {
+  padding-bottom: 65px;
+}
+
+.price {
+  background-color: #f2f2f2;
+}
+
+.price__item {
+  padding: 20px;
+}
+
+.properties__list {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  width: 86%;
+}
+
+.properties__item {
+  text-align: start;
+  padding: 25px 20px;
+  margin-bottom: -1px;
+  background-color: #ffffff;
+
+  font-size: 13px;
+  border: 1px solid #e5e5e5;
+
+  &--title {
+    text-align: center;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 19px 20px 35px;
+    background: #283645;
+    border-top: #283645;
+    color: #ffffff;
+  }
+}
+
+.contacts__title {
+  padding: 45px 20px 25px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.contacts__phone,
+.contacts__email,
+.contacts__address {
+  margin: 0;
+  padding: 20px 20px 15px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 33px;
+
+  &--mobile,
+  &--address,
+  &--place {
+    font-weight: 300;
+    font-size: 24px;
+    color: #d22856;
+  }
+}

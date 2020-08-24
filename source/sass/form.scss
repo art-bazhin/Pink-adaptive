@@ -1,0 +1,172 @@
+.heading__text-form {
+  padding: 36px 20px 51px;
+  font-weight: 300;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.achievements {
+  background-color: #ffffff;
+}
+
+.achievements__title {
+  margin: 0;
+  padding: 55px 20px 20px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.achievements__list-initial,
+.achievements__list-contacts {
+  margin: 0;
+  list-style: none;
+  padding: 20px 20px 44px;
+}
+
+.achievements__list-contacts {
+  padding-top: 20px;
+}
+
+.achievements__item-initial,
+.achievements__item-contacts,
+.achievements__item-email {
+  padding: 10px 0;
+  line-height: 50px;
+  text-align: start;
+}
+
+.achievements__name,
+.achievements__phone,
+.achievements__email {
+  padding-left: 22px;
+  text-transform: uppercase;
+  color: #d22856;
+}
+
+.achievements__name-text,
+.achievements__phone-text,
+.achievements__email-text {
+  box-sizing: border-box;
+  outline: none;
+  padding: 23px 20px;
+  width: 100%;
+  border: 2px solid #e5e5e5;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #283645;
+}
+
+.achievements__filter-act,
+.achievements__filter-soft {
+  border: none;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.filter-act__title,
+.filter-soft__title,
+.comment__heading {
+  padding: 40px 25px 20px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #d22856;
+
+  &--current {
+    display: block;
+    padding-bottom: 10px;
+  }
+}
+
+.filter-act__list,
+.filter-soft__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.filter-act__item,
+.filter-soft__item {
+  text-align: start;
+  padding: 35px 20px 35px 56px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #283645;
+}
+
+.filter-act__label {
+  position: relative;
+  cursor: pointer;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: -60px;
+    top: -4px;
+    background-color: #ffffff;
+    border: 2px solid #e5e5e5;
+    border-radius: 1px;
+  }
+}
+
+.filter-soft__label {
+  position: relative;
+  cursor: pointer;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: -60px;
+    top: -4px;
+    background-color: #ffffff;
+    border: 2px solid #e5e5e5;
+    border-radius: 50%;
+  }
+}
+
+.achievements__comment {
+  padding: 0 20px;
+}
+
+.comment__text {
+  box-sizing: border-box;
+  outline: none;
+  padding: 20px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #283645;
+
+  &--window {
+    resize: none;
+    width: 100%;
+    min-height: 200px;
+    border-radius: 1px;
+    border: 2px solid #e5e5e5;
+  }
+}
+
+.achievements__button {
+  padding: 20px 43px;
+  margin: 52px 0 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  background-color: #2aab6d;
+  border: 2px solid #2aab6d;
+  border-radius: 3px;
+  color: #ffffff;
+}
+
+.filter__legend {
+  padding: 23px 20px;
+}
