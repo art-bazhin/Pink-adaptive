@@ -1,21 +1,28 @@
+@import "fonts.scss";
+@import "variables.scss";
+
 @import "header.scss";
 @import "footer.scss";
 @import "main.scss";
 @import "form.scss";
 @import "photo.scss";
-@import "variables.scss";
+
+@import "blocks/hero.scss";
+@import "blocks/software.scss";
 
 // Начните писать стили здесь
 
 .page__body {
   margin: 0;
   padding: 0;
-  background: url("/img/bg-back-mobile@1x.jpg") no-repeat;
-  background-size: 100%;
   text-align: center;
   font-family: "Open sans", sans-serif;
 }
 
 .visually-hidden {
-  display: none;
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
 }

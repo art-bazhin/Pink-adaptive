@@ -1,6 +1,15 @@
 @import "variables.scss";
 
 .page-header {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+
+  &--open {
+    position: relative;
+    margin-bottom: -76px;
+  }
+
   @media (min-width: $desktop-width) {
     background-color: rgba(0, 0, 0, 0.3);
   }
@@ -23,8 +32,8 @@
 
   @media (min-width: $desktop-width) {
     display: flex;
-    justify-content: space-around;
-    max-width: 1160px;
+    justify-content: space-between;
+    max-width: 940px;
     margin: 0 auto;
     padding: 20px;
   }
@@ -139,13 +148,14 @@
   padding: 24px 20px;
   background: #283645;
   box-shadow: 0 1px 0 #000000, inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  margin-bottom: 1px;
 
   @media (min-width: $tablet-width) {
-    padding: 27px 20px 43px;
+    padding: 27px 0 43px;
   }
 
   @media (min-width: $desktop-width) {
-    padding: 10px;
+    padding: 10px 0;
     background: none;
     box-shadow: none;
   }
@@ -164,7 +174,7 @@
 
   .site-list__item {
     display: block;
-    padding: 21.5px 39px 3.5px;
+    padding: 21.5px 0 3.5px 78px;
   }
 }
 
@@ -179,6 +189,7 @@
   color: #ffffff;
   background: #283645;
   box-shadow: 0 1px 0 #000000, inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  margin-bottom: 1px;
 
   &:hover {
     color: #d22856;

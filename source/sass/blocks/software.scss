@@ -1,0 +1,55 @@
+.software {
+  background-color: #1d2631;
+  color: #ffffff;
+  padding: 28px 20px;
+
+  @media (min-width: $tablet-width) {
+    background: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 100px;
+  }
+}
+
+.software__button {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 18px 32px;
+  border: 3px solid #ffffff;
+  border-radius: 50px;
+  color: #ffffff;
+}
+
+.software__list {
+  display: flex;
+  justify-content: center;
+  padding: 32px 38px 14px;
+  list-style: none;
+}
+
+.software__icon {
+  margin: 0 18px;
+
+  &--android {
+    padding-top: 7px;
+  }
+
+  &--windows8 {
+    padding-top: 10px;
+  }
+}
+
+.software__text {
+  padding: 17px 20px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

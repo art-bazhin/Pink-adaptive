@@ -128,18 +128,6 @@
   }
 }
 
-.picture__contrast path {
-  fill: rgba(40, 54, 69, 0.3);
-
-  &:hover {
-    fill: rgba(40, 54, 69, 0.5);
-  }
-
-  &:active {
-    fill: #d22856;
-  }
-}
-
 .picture__button {
   padding: 18px 100px;
   border: 3px solid #d22856;
